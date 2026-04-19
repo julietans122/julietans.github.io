@@ -1,13 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Julieta Nerina Sampayo</title>
-  <meta http-equiv="refresh" content="0; url=./cv-jul-sg.html" />
-  <link rel="canonical" href="./cv-jul-sg.html" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Julieta Nerina Sampayo - Portfolio and CV.">
+  <meta property="og:title" content="Julieta Nerina Sampayo | Portfolio">
+  <meta property="og:description" content="Portfolio and CV.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://julietans122.github.io/julietans.github.io/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Julieta Nerina Sampayo | Portfolio">
+  <meta name="twitter:description" content="Portfolio and CV.">
+  <title>Julieta Nerina Sampayo | Portfolio</title>
+
+  <link rel="stylesheet" href="bs-css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/body.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/main-content.css">
+  <link rel="stylesheet" href="css/summary.css">
+  <script src="https://kit.fontawesome.com/ad42bd9076.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <p>Redirecting... <a href="./cv-jul-sg.html">Open resume</a>.</p>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Site navigation">
+    <a class="navbar-brand" href="#" aria-label="Julieta Nerina Sampayo - home"><i class="logo" aria-hidden="true"></i></a>
+    <div class="navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav flex-column" id="nav-menu">
+        <!-- Dynamic Navigation Links Will Be Injected Here -->
+      </ul>
+    </div>
+    <div class="navbar-collapse position-absolute bottom-0 end-0">
+      <ul class="navbar-nav flex-row justify-content-end">
+        <li class="nav-item cv-mobile-only">
+          <a class="nav-link" href="cv-jul-sg.html" target="_blank" rel="noopener noreferrer" aria-label="Curriculum Vitae">
+            <i class="fa-solid fa-file-lines" aria-hidden="true"></i><span class="cv-label">CV</span>
+          </a>
+        </li>
+        <li class="nav-item ms-3">
+          <a class="nav-link" href="mailto:your-email@example.com" aria-label="Send email">
+            <i class="fa-solid fa-at" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav-item ms-3">
+          <a class="nav-link" href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="main-content"></div>
+  </div>
+
+  <div id="summary" class="summary bg-light">
+    <div id="intro-panel">
+      <p class="intro-name">Julieta Nerina Sampayo</p>
+      <p class="intro-title">Portfolio</p>
+      <p class="intro-tags">Design &nbsp;&middot;&nbsp; Branding &nbsp;&middot;&nbsp; Marketing</p>
+    </div>
+    <p id="summary-text"></p>
+  </div>
+
+  <script src="bs-js/bootstrap.bundle.min.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/content.js"></script>
+
+  <footer class="portfolio-footer">
+    <p>&copy; <span id="footer-year"></span> Julieta Nerina Sampayo</p>
+  </footer>
+
+  <script>
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
